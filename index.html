@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>MovieKings</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="/script.js"></script>
+    <header id="header">
+      <h1 id="title">Movie@Kings</h1>
+      <p id="mini-desc">Find information for all your favorite movies all in one site. It's in the name. &trade; </p>
+    </header>
+    
+    <div id="main-container">
+      <h2 id="searchTitle">Enter a movie title below and start searching!</h2>
+      <div class="input-container">
+        <input id="movieInput" placeholder="Enter movie title"/>
+        <button id="submit">SEARCH</button>
+      </div>
+      
+      <div class="results">
+        <div class="movie-poster">
+          <img id="moviePoster">
+        </div>
+        <div class="general-info column">
+          <h1 id="movieTitle"></h1>
+          <h3 id="releaseDate"></h3>
+          <h2 id="overviewHeader"></h2>
+          <p id="overview"></p>
+          <div class="reviews">
+            <h2 id="reviewHeader"></h2>
+            <p class="review"></p>
+            <a id="reviewLink" href="" target="_blank"></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="movie-row">
+        <img class="movie" src="https://image.tmdb.org/t/p/w500/lcq8dVxeeOqHvvgcte707K0KVx5.jpg">
+        <img class="movie" src="https://image.tmdb.org/t/p/w500/bB42KDdfWkOvmzmYkmK58ZlCa9P.jpg">
+        <img class="movie" src="https://upload.wikimedia.org/wikipedia/en/c/c1/Sonic_the_Hedgehog_poster.jpg">
+        <img class="movie" src="https://lumiere-a.akamaihd.net/v1/images/p_mulan2020_ecd26078.jpeg">
+        <img class="movie" src="https://lumiere-a.akamaihd.net/v1/images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_ebc74357.jpeg?region=0%2C0%2C891%2C1372">
+        <img class="movie" src="https://lumiere-a.akamaihd.net/v1/images/p_onward_19024_dbb512d5.jpeg?region=0%2C0%2C540%2C810">
+        <img class="movie" src="https://m.media-amazon.com/images/M/MV5BMDNkODA5ZGQtODczOS00OTQxLThhMTItMjk0ZmNhMDM0YjNmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_.jpg">    
+      </div>
+      
+    </div>
+    
+    <footer id="footer">
+        <p>&copy; 2020 Movie Kings. All rights reserved. 
+          <a href="https://pngtree.com/so/abstract"> 
+            Abstract PNG from pngtree.com
+          </a>
+        </p>
+    </footer>
+    
+  </body>
+</html>
